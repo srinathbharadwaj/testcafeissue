@@ -38,7 +38,7 @@ pipeline {
     post {
         always {
             echo 'Use this stage to do post run activities'
-            deleteDir() /* clean up our workspace */
+            //deleteDir() /* clean up our workspace */
         }
     }
 }
